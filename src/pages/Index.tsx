@@ -19,9 +19,9 @@ const Index = () => {
   }];
   const handleAnswer = (answerIndex: number) => {
     if (currentStep < quizData.length) {
-        setCurrentStep(currentStep + 1);
+      setCurrentStep(currentStep + 1);
     } else {
-        setIsCompleted(true);
+      setIsCompleted(true);
     }
   };
   return <div className="min-h-screen bg-background mx-0 my-0 py-[50px]">
@@ -31,14 +31,14 @@ const Index = () => {
           <h1 className="text-2xl md:text-3xl font-heading font-bold text-primary mb-2">
             Answer 3 Quick Questions to Unlock Your Exclusive Discount Coupon
           </h1>
-          <p className="text-base md:text-lg font-body text-foreground">Your answers will help you discover the path to clear, healthy nails with Kerassentials ®!</p>
+          <p className="text-base md:text-lg font-body text-foreground">Your answers will help you discover the path to clear, healthy nails with Kerassentials™!</p>
         </div>
       </header>
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8 my-0" style={{
-        marginTop: '4vh'
-      }}>
+      marginTop: '4vh'
+    }}>
         <div className="max-w-[650px] mx-auto">
           {!isCompleted ? <div className="bg-card border border-border rounded-lg p-4 sm:p-6 md:p-8 shadow-lg">
               <ProgressBar currentStep={currentStep} totalSteps={quizData.length} />
