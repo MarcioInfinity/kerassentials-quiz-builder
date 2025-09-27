@@ -17,15 +17,13 @@ export const QualificationPage = ({
           Based on your answers, you are an ideal candidate for this unique doctor-formulated formula.
         </p>
         
-        <p className="text-lg font-body font-bold text-foreground mb-3 sm:mb-4">Your official exclusive discount has been automatically activated for the Kerassentials ® formula.</p>
+        <p className="text-lg font-body font-bold text-foreground mb-3 sm:mb-4">Your official exclusive discount has been automatically activated for the Kerassentials™ formula.</p>
         
         <p className="text-base font-body italic text-muted-foreground mb-6 sm:mb-8">
           Click the button below to watch the special video presentation and claim your discounted supply before it's gone.
         </p>
       </div>
       
-      <QuizButton onClick={handleCTAClick} size="lg" className="w-[90%] mx-auto mt-5 text-lg sm:text-xl font-bold py-4 px-6 sm:py-6 sm:px-12 h-auto min-h-[70px] hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl whitespace-normal">
-        Claim Your Discount Coupon for Kerassentials®
-      </QuizButton>
+      <QuizButton onClick={handleCTAClick} size="lg" className="w-[90%] mx-auto mt-5 text-lg sm:text-xl font-bold py-4 px-6 sm:py-6 sm:px-12 h-auto min-h-[70px] hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl whitespace-normal">Claim Your Discount Coupon for Kerassentials™</QuizButton>
     </div>;
 };
