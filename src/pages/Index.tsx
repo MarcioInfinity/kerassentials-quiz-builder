@@ -40,15 +40,15 @@ const Index = () => {
       </header>
 
       {/* Main Content */}
-      <main style={{
-      marginTop: '8vh'
-    }} className="container mx-auto px-4 py-8 my-0">
-        <div className="max-w-3xl mx-auto">
-          {!isCompleted ? <div className="bg-card border border-border rounded-lg p-6 md:p-8 shadow-lg">
+      <main className="container mx-auto px-4 py-8 my-0" style={{
+        marginTop: '4vh'
+      }}>
+        <div className="max-w-[650px] mx-auto">
+          {!isCompleted ? <div className="bg-card border border-border rounded-lg p-4 sm:p-6 md:p-8 shadow-lg">
               <ProgressBar currentStep={currentStep} totalSteps={quizData.length} />
               
               <QuizStep question={quizData[currentStep - 1].question} answers={quizData[currentStep - 1].answers} onAnswer={handleAnswer} image={quizData[currentStep - 1].hasImage ? kerassentialsBottles : undefined} />
-            </div> : <div className="bg-card border border-border rounded-lg p-6 md:p-8 shadow-lg">
+            </div> : <div className="bg-card border border-border rounded-lg p-4 sm:p-6 md:p-8 shadow-lg">
               <QualificationPage />
             </div>}
         </div>

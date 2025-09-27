@@ -22,16 +22,16 @@ export const QuizStep = ({ question, answers, onAnswer, image, className }: Quiz
         </div>
       )}
       
-      <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground text-center mb-8 leading-relaxed">
+      <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground text-center mb-4 sm:mb-8 leading-relaxed">
         {question}
       </h2>
       
-      <div className="space-y-4">
+      <div className="space-y-3 sm:space-y-4">
         {answers.map((answer, index) => (
           <QuizButton
             key={index}
             onClick={() => onAnswer(index)}
-            className="w-full text-left p-6 h-auto min-h-[60px] text-base md:text-lg leading-relaxed hover:scale-[1.02] transition-transform duration-200"
+            className="w-full text-left py-4 px-4 sm:py-6 sm:px-6 h-auto min-h-[60px] text-base md:text-lg leading-relaxed hover:scale-[1.02] transition-transform duration-200 whitespace-normal"
           >
             {answer}
           </QuizButton>
