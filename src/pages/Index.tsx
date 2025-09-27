@@ -19,13 +19,9 @@ const Index = () => {
   }];
   const handleAnswer = (answerIndex: number) => {
     if (currentStep < quizData.length) {
-      setTimeout(() => {
         setCurrentStep(currentStep + 1);
-      }, 300);
     } else {
-      setTimeout(() => {
         setIsCompleted(true);
-      }, 300);
     }
   };
   return <div className="min-h-screen bg-background mx-0 my-0 py-[50px]">
