@@ -16,7 +16,7 @@ export const QuizStep = ({ question, answers, onAnswer, image, className }: Quiz
         <div className="flex justify-center mb-8">
           <img
             src={image}
-            alt="Kerassentials Product"
+            alt="Kerassentials® Product"
             className="max-w-full h-auto max-h-64 object-contain"
           />
         </div>

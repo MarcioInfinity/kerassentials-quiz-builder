@@ -14,7 +14,7 @@ export const QualificationPage = ({ className }: QualificationPageProps) => {
     <div className={cn("animate-fade-in text-center", className)}>
       <div className="mb-8">
         <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4">
-          Congratulations! You've Qualified.
+          Congratulations! Your Discount Coupon is Unlocked.
         </h1>
         
         <p className="text-lg md:text-xl font-body text-foreground mb-6 leading-relaxed">
@@ -22,7 +22,7 @@ export const QualificationPage = ({ className }: QualificationPageProps) => {
         </p>
         
         <p className="text-lg font-body font-bold text-foreground mb-4">
-          Your official exclusive discount has been automatically activated for the Kerassentials formula.
+          Your official exclusive discount has been automatically activated for the Kerassentials® formula.
         </p>
         
         <p className="text-base font-body italic text-muted-foreground mb-8">
@@ -35,7 +35,7 @@ export const QualificationPage = ({ className }: QualificationPageProps) => {
         size="lg"
         className="text-xl font-bold px-12 py-6 h-auto min-h-[70px] hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
       >
-        Watch The Video & Claim My Discount Now
+        Claim Your Discount Coupon for Kerassentials®
       </QuizButton>
     </div>
   );
