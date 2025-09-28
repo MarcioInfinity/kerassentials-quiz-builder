@@ -17,7 +17,7 @@ export const QualificationPage = ({
           Based on your answers, you are an ideal candidate for this unique doctor-formulated formula.
         </p>
         
-        <p className="text-lg font-body font-bold text-foreground mb-3 sm:mb-4">Your official exclusive discount has been automatically activated for the Kerassentials™ formula.</p>
+        <p className="text-lg font-body font-bold text-foreground mb-3 sm:mb-4">Your official exclusive discount has been automatically activated using the button link below for the Kerassentials™ formula.</p>
         
         {/* Trust Signals */}
         <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 mb-6 sm:mb-8 px-4">
