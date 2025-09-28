@@ -23,29 +23,29 @@ export const QualificationPage = ({
         
         <p className="text-lg font-body font-bold text-foreground mb-3 sm:mb-4">Your official exclusive discount has been automatically activated for the Kerassentials® formula.</p>
         
+        {/* Trust Signals */}
+        <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 mb-6 sm:mb-8 px-4">
+          <div className="flex items-center text-sm text-[#333333] font-body">
+            <span className="mr-2">✅</span>
+            <span>Doctor-Formulated</span>
+          </div>
+          <div className="flex items-center text-sm text-[#333333] font-body">
+            <span className="mr-2">✅</span>
+            <span>100% Natural Ingredients</span>
+          </div>
+          <div className="flex items-center text-sm text-[#333333] font-body">
+            <span className="mr-2">✅</span>
+            <span>Made in USA</span>
+          </div>
+          <div className="flex items-center text-sm text-[#333333] font-body">
+            <span className="mr-2">✅</span>
+            <span>60-Day Money-Back Guarantee</span>
+          </div>
+        </div>
+
         <p className="text-base font-body italic text-muted-foreground mb-6 sm:mb-8">
           Click the button below to watch the special video presentation and claim your discounted supply before it's gone.
         </p>
-      </div>
-
-      {/* Trust Signals */}
-      <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 mb-6 sm:mb-8 px-4">
-        <div className="flex items-center text-sm text-[#333333] font-body">
-          <span className="mr-2">✅</span>
-          <span>Doctor-Formulated</span>
-        </div>
-        <div className="flex items-center text-sm text-[#333333] font-body">
-          <span className="mr-2">✅</span>
-          <span>100% Natural Ingredients</span>
-        </div>
-        <div className="flex items-center text-sm text-[#333333] font-body">
-          <span className="mr-2">✅</span>
-          <span>Made in USA</span>
-        </div>
-        <div className="flex items-center text-sm text-[#333333] font-body">
-          <span className="mr-2">✅</span>
-          <span>60-Day Money-Back Guarantee</span>
-        </div>
       </div>
       
       <QuizButton onClick={handleCTAClick} size="lg" className="w-[90%] mx-auto mt-5 text-lg sm:text-xl font-bold py-4 px-6 sm:py-6 sm:px-12 h-auto min-h-[70px] hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl whitespace-normal">Claim Your Discount Coupon for Kerassentials®</QuizButton>
