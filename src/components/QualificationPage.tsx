@@ -13,9 +13,7 @@ export const QualificationPage = ({
       <div className="mb-6 sm:mb-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-primary mb-3 sm:mb-4">Congratulations! You're qualified!</h1>
         
-        <p className="text-lg md:text-xl font-body text-foreground mb-4 sm:mb-6 leading-relaxed">
-          Based on your answers, you are an ideal candidate for this unique doctor-formulated formula.
-        </p>
+        <p className="text-lg md:text-xl font-body text-foreground mb-4 sm:mb-6 leading-relaxed">Based on your answers, you are an ideal candidate for this unique formula created by renowned doctors.</p>
         
         <p className="text-lg font-body font-bold text-foreground mb-3 sm:mb-4">Your official exclusive discount has been automatically activated using the button link below for the Kerassentials™ formula.</p>
         
