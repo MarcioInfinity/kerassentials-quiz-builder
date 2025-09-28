@@ -44,7 +44,7 @@ export const QualificationPage = ({
         </div>
 
         <p className="text-base font-body italic text-muted-foreground mb-6 sm:mb-8">
-          Click the button below to watch the special video presentation and claim your discounted supply before it's gone.
+          Click the button below and secure your discount coupon before stocks run out.
         </p>
       </div>
       
