@@ -1,19 +1,15 @@
 import { QuizButton } from "./ui/quiz-button";
 import { cn } from "@/lib/utils";
-
 interface QualificationPageProps {
   className?: string;
 }
-
 export const QualificationPage = ({
   className
 }: QualificationPageProps) => {
   const handleCTAClick = () => {
     window.open('https://9f72fjijqhulgk78hqqg4bxo6j.hop.clickbank.net/?&traffic_source=google&campaign=inicio1', '_blank');
   };
-
-  return (
-    <div className={cn("animate-fade-in text-center", className)}>
+  return <div className={cn("animate-fade-in text-center", className)}>
       <div className="mb-6 sm:mb-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-primary mb-3 sm:mb-4">Congratulations! You're qualified!</h1>
         
@@ -37,10 +33,7 @@ export const QualificationPage = ({
             <span className="mr-2">✅</span>
             <span>Made in USA</span>
           </div>
-          <div className="flex items-center text-sm text-[#333333] font-body">
-            <span className="mr-2">✅</span>
-            <span>60-Day Money-Back Guarantee</span>
-          </div>
+          
         </div>
 
         <p className="text-base font-body italic text-muted-foreground mb-6 sm:mb-8">
@@ -49,6 +42,5 @@ export const QualificationPage = ({
       </div>
       
       <QuizButton onClick={handleCTAClick} size="lg" className="w-[90%] mx-auto mt-5 text-lg sm:text-xl font-bold py-4 px-6 sm:py-6 sm:px-12 h-auto min-h-[70px] hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl whitespace-normal">Claim Your Discount Coupon for Kerassentials®</QuizButton>
-    </div>
-  );
+    </div>;
 };
