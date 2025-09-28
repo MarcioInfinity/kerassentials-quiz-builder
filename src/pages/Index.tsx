@@ -49,6 +49,22 @@ const Index = () => {
             </div>}
         </div>
       </main>
+
+      {/* Compliance Footer */}
+      <footer className="bg-[#F8F9FA] text-[#6C757D] text-xs text-center py-4 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="mb-2">
+            <a href="/privacy.html" className="hover:underline">Privacy Policy</a>
+            <span className="mx-2">|</span>
+            <a href="/terms.html" className="hover:underline">Terms & Conditions</a>
+            <span className="mx-2">|</span>
+            <a href="/disclosure.html" className="hover:underline">Affiliate Disclosure</a>
+          </div>
+          <div className="italic">
+            *Please note: This site contains affiliate links. We may receive a commission for purchases made through these links.
+          </div>
+        </div>
+      </footer>
     </div>;
 };
 export default Index;
